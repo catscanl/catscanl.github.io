@@ -32,57 +32,29 @@
 
   <body>
 
-      <!-- ********** SLIDES ********** -->
-      <section id="slides">
-         <ul class="slides-container">
-            <li>
-               <img src="assets/img/new/image1.jpg" alt="">
-            </li>
-            <li>
-               <img src="assets/img/new/image3.jpg" alt="">
-            </li>
-            <li>
-               <img src="assets/img/new/image2.jpg" alt="">
-            </li>
-         </ul>
-         <div id="bannertext">
-            <h1>IE Web Training</h1>
-            <hr class="aligncenter">
-            <!-- <h3>Learn how to manage your own professional websites</h3> -->
-         </div>
-         <!-- end:Banner text -->
-         <nav class="slides-navigation">
-            <a href="index.html#" class="next">
-            <i class="ion-ios7-arrow-forward"></i>
-            </a>
-            <a href="index.html#" class="prev">
-            <i class="ion-ios7-arrow-back"></i>
-            </a>
-         </nav>
-      </section>
-      <!-- END SLIDES SECTION -->
-    
     <!-- ********** NAV BAR ********** -->
 
     <nav class="navbar navbar-default">
         <div class="container-fluid">  
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">IE Web Training</a>
+            </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="workshops.html">Workshops</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="#">Workshops</a></li>
                     <li><a href="#f">Contact</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
 
-
     <!-- ********** FEATURES ********** -->
     <div class="container">
         <div class="row mtb2 centered">
             <div class="col-sm-8 col-sm-offset-2 w">
-            <h2>Working Theme</h2>
+            <h2>Workshops</h2>
             <hr class="aligncenter">
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
             </div><!--/col-md-4-->
@@ -94,38 +66,59 @@
     <!-- ********** COURSES SECTION ********** -->
     <div id="g">
         <div class="container">
-        <h2>Workshops</h2>
-        <hr class="aligncenter">
-        <div class="row mtb">
-            <div class="col-sm-1 centered">
-                <i class="icon ion-social-wordpress"></i>
-            </div>
-            <div class="col-sm-5 w">
-                <h5>WordPress Users</h5>
-                <hr>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                <a href="workshops.html#wordpress-user"><button class="btn btn-lg btn-design btn-course">Read More</button></a>
-            </div>
-
-            <div class="col-sm-1 centered">
-                <i class="icon ion-chatboxes"></i>
-            </div>
-            <div class="col-sm-5 w">
-                <h5>Social Media</h5>
-                <hr>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                <a href="workshops.html#social-media"><button class="btn btn-lg btn-design">Read More</button></a>
-            </div>
-
-        </div><!--/row -->
+            <div id="wordpress-user" class="row mtb">
+                <div class="col-sm-1 centered">
+                    <i class="icon ion-social-wordpress"></i>
+                </div>
+                <div class="col-sm-7 w">
+                    <h5>WordPress Users</h5>
+                    <hr>
+                    <p>Why WordPress.</p>
+                    <p>What you will learn</p>
+                    <p>Outcomes</p>
+                    <p>Instructor</p>
+                </div>
+                <div class="next-workshop col-sm-3">
+                    <h5>Next Workshop Dates</h5>
+                    <h5>Location</h5>
+                    <h5>Map</h5>
+                    <a href="booking.html" target="_blank"><button class="btn btn-lg btn-design">Book Here</button></a>
+                </div>
+            </div><!--/row -->
         </div><!--/container -->
 
     </div><!--G -->
 
+    <div id="social-media">
+        <div class="container">
+            <div class="row mtb">
+
+                <div class="col-sm-1 centered">
+                    <i class="icon ion-chatboxes"></i>
+                </div>
+                <div class="col-sm-7 w">
+                    <h5>Social Media</h5>
+                    <hr>
+                    <p>Why Social Media.</p>
+                    <p>What you will learn</p>
+                    <p>Outcomes</p>
+                    <p>Instructor</p>
+                </div>
+                <div class="next-workshop col-sm-3">
+                    <h5>Next Workshop Dates</h5>
+                    <h5>Location</h5>
+                    <h5>Map</h5>
+                    <a href="booking.html" target="_blank"><button class="btn btn-lg btn-design">Book Here</button></a>
+                </div>
+
+            </div><!--/row -->
+        </div><!--/container -->
+    </div>
+
 	<!-- ********** TESTIMONIAL SECTION ********** -->
 	<div id="t" class="carousel slide" data-ride="carousel">
     	<div class="col-md-6 col-md-offset-3 centered">
-    		<h5>Love From Our Workshop Atendees</h5>
+    		<h5>Love From Our Users</h5>
     		<hr class="aligncenter">
 		    <!-- Carousel
 		    ================================================== -->
@@ -166,16 +159,22 @@
 	<div id="f">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 w centered">
-					<h5 class="mb">Contact Us</h5>		
-                    <!-- www.123contactform.com script begins here -->
-                    <iframe allowTransparency="true" style="min-height:420px; height:inherit; overflow:auto;" width="100%" id="contactform123" name="contactform123" marginwidth="0" marginheight="0" frameborder="0" src="http://www.123contactform.com/my-contact-form-2269837.html">
-                    <p>Your browser does not support iframes. The contact form cannot be displayed. Please use another browser</p>
-                    </iframe>
-                    <!-- www.123contactform.com script ends here -->
-
+				<div class="col-md-6 col-md-offset-3 w centered">
+					<h5 class="mb">Contact us here</h5>
+					<form role="form" action="register.php" method="post" enctype="plain"> 
+	    				<input type="email" name="email" class="subscribe-input" placeholder="Enter your e-mail address..." required>
+						<button class='btn btn-lg btn-clear subscribe-submit' type="submit">Subscribe</button>
+					</form>
 				</div><!--/col-md-6-->
 			</div><!--/row -->
+			<div class="row mtb">
+				<div class="col-md-6 col-md-offset-3 centered">
+					<a href="#"><i class="icon ion-social-instagram"></i></a>
+					<a href="#"><i class="icon ion-social-twitter"></i></a>
+					<a href="#"><i class="icon ion-social-facebook"></i></a>
+					<a href="#"><i class="icon ion-social-dribbble"></i></a>
+				</div>
+			</div>
 		</div><!--/container -->
 	</div><!--/F -->
 
@@ -202,24 +201,24 @@
 
     <script>
     //Superslides 
-        $('#slides').superslides({
-            slide_easing: 'easeInOutCubic',
-            slide_speed: 800,
-            pagination: true,
-            hashchange: false,
-            scrollable: true,
-            animation: 'fade'
-        });
-        
-        // Add swipe option
-        
-        $('#slides').hammer().on('swipeleft', function () {
-            $(this).superslides('animate', 'next');
-        });
-        
-        $('#slides').hammer().on('swiperight', function () {
-            $(this).superslides('animate', 'prev');
-        });
+		$('#slides').superslides({
+		    slide_easing: 'easeInOutCubic',
+		    slide_speed: 10000,
+		    pagination: true,
+		    hashchange: false,
+		    scrollable: true,
+		    animation: 'fade'
+		});
+		
+		// Add swipe option
+		
+		$('#slides').hammer().on('swipeleft', function () {
+		    $(this).superslides('animate', 'next');
+		});
+		
+		$('#slides').hammer().on('swiperight', function () {
+		    $(this).superslides('animate', 'prev');
+		});
     </script>
     
     <script>
