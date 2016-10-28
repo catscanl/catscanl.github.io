@@ -30,7 +30,7 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body id="homepage">
 
       <!-- ********** SLIDES ********** -->
       <section id="slides">
@@ -48,7 +48,7 @@
          <div id="bannertext">
             <h1>IE Web Training</h1>
             <hr class="aligncenter">
-            <!-- <h3>Learn how to manage your own professional websites</h3> -->
+            <h3>Web Specialists</h3>
          </div>
          <!-- end:Banner text -->
          <nav class="slides-navigation">
@@ -79,12 +79,12 @@
 
 
     <!-- ********** FEATURES ********** -->
-    <div class="container">
+    <div class="container homepage-intro">
         <div class="row mtb2 centered">
             <div class="col-sm-8 col-sm-offset-2 w">
-            <h2>Working Theme</h2>
+            <h2>One Day Workshops</h2>
             <hr class="aligncenter">
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            <p>Would you like to learn how to build your own website or learn how to update your existing WordPress website? Need to leanr how to utilise social media platforms to enable you to reach a wider audience quickly and effectively. Our one day workshops will give you the knowledge to ....</p>
             </div><!--/col-md-4-->
         </div><!--/row -->
     </div><!-- /.container -->
@@ -103,7 +103,7 @@
             <div class="col-sm-5 w">
                 <h5>WordPress Users</h5>
                 <hr>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <p>WordPress is the world’s most popular website builder. This one day workshop covers all the most useful features and tools WordPress offers.</p>
                 <a href="workshops.html#wordpress-user"><button class="btn btn-lg btn-design btn-course">Read More</button></a>
             </div>
 
@@ -113,7 +113,7 @@
             <div class="col-sm-5 w">
                 <h5>Social Media</h5>
                 <hr>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <p>Our hands-on social media one day workshop will teach you what you need to know about the main social media channels.</p>
                 <a href="workshops.html#social-media"><button class="btn btn-lg btn-design">Read More</button></a>
             </div>
 
@@ -201,7 +201,7 @@
     <script src="assets/js/jquery.hammer.min.js"></script>
 
     <script>
-    //Superslides 
+        //Superslides 
         $('#slides').superslides({
             slide_easing: 'easeInOutCubic',
             slide_speed: 800,
@@ -223,24 +223,23 @@
     </script>
     
     <script>
-    // Banner text add parallax efect and fade
-	function EasyPeasyParallax() {
-	    scrollPos = $(this).scrollTop();
-	    $('#slider').css({
-	        'background-position': '50% ' + (-scrollPos / 4) + "px"
-	    });
-	    $('#bannertext').css({
-	        'margin-top': (scrollPos / 4) + "px",
-	        'opacity': 1 - (scrollPos / 250)
-	    });
-	}
-	$(document).ready(function () {
-	    $(window).scroll(function () {
-	        EasyPeasyParallax();
-	    });
-	});
+        // Banner text add parallax efect and fade
+    	function EasyPeasyParallax() {
+    	    scrollPos = $(this).scrollTop();
+    	    $('#slider').css({
+    	        'background-position': '50% ' + (-scrollPos / 4) + "px"
+    	    });
+    	    $('#bannertext').css({
+    	        'margin-top': (scrollPos / 4) + "px",
+    	        'opacity': 1 - (scrollPos / 250)
+    	    });
+    	}
+    	$(document).ready(function () {
+    	    $(window).scroll(function () {
+    	        EasyPeasyParallax();
+    	    });
+    	});
     </script>
-    
     
   </body>
 </html>
