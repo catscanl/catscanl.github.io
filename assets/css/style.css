@@ -13,9 +13,21 @@
 
 /* Cathy Additions Nav */
 .navbar-default {
-	background-color: transparent;
+	background-color: #fff;
 	border-color: transparent;
+	border-bottom: 2px solid #eee;
+	padding: 15px 0;
 }
+
+.navbar-default li a {
+	letter-spacing: .05em;
+}
+
+.navbar-default img {
+	width:30%;
+	
+}
+
 
 /* Cathy Additions Hompeage */
 
@@ -31,8 +43,9 @@
 	text-align: center;
 }
 
-#g .btn-design {
-	background-color: none;
+.btn-design {
+	background-color: #1abc9c;
+	color:#fff;
 	margin-top:20px !important;
 	margin-left:0;
 	margin-right:0;
@@ -47,87 +60,83 @@
 }
 
 /* Cathy Additions Workshops Page */
-
-#wordpress-user img, #socialmedia img {
-	width:70%;
-	margin-left:auto;
-	margin-right:auto;
-	padding-top:20px;
-	padding-bottom:20px;
-}
-.next-workshop {
-	background-color: #fff;
-	padding: 30px 16px;
-    line-height: 1.33;
-    border-radius: 6px;
-    font-size: 13px;
-    letter-spacing: 1px;
+#workshop-page {
+	position: relative;
 }
 
-.next-workshop h5 {
-	margin-top:20px;
-	margin-bottom:20px;
+#workshop-page h1 {
+	padding:30px 0 20px 0;
 }
 
-.next-workshop p {
-	font-size:14px;
-	padding-left:10px;
+#workshop-intro-bg {
+	background-size: cover;
+	display: block;
+	filter: grayscale(100%);
+	opacity: 0.1;
+	height: 800px;
+	left: 0;
+	position: fixed;
+	right: 0;
+	z-index: 1;
 }
 
-#map_canvas {
-	margin-bottom:30px;
+.wkshop {
+	position: relative;
+	background: #ececec;
+	padding: 100px 0;
 }
 
-#workshop-white .next-workshop {
-	background-color: #e7e7e7;
-
+.cwp.opaque {
+    background: hsla(0,0%,100%,.5);
 }
 
-#f h5 {
-	margin-bottom:30px;
+.cwp {
+    padding: 30px;
+}
+.cwp img {
+	width:50%;
+}
+
+.mtop {
+    margin-top: 30px;
+}
+
+.cwp h2 {
+    font-size: 30px;
+    padding-bottom:30px;
+}
+
+.cwp p {
+    margin: 0 0 12.5px;
+    letter-spacing: .05em;
+}
+
+
+.wkshop .container {
+	position: relative;
+    z-index: 2;
+} 
+
+.bordered-title, h1.bordered-title, h2.bordered-title, h3.bordered-title {
+	color: #1abc9c;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.4em;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .class123-label {
-    color: #fff !important;
+    color: #777 !important;
 }
 
-
-.workshop-hero {
-   position: relative;
-   background-image: url(../img/new/workshops.jpg); 
-   z-index: 2;
-}
-.workshop-hero:after {
-    content : "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #1D1D25;
-    width: 100%;
-    height: 100%;
-    opacity : 0.5;
-    z-index: -1;
-}
-
-.workshop-hero a, 
-.workshop-hero li, 
-.workshop-hero h2, 
-.workshop-hero p {
-	color: #fff !important;
-}
-
-.workshop-hero hr {
-	border: 1px solid #fff !important;
-}
-
-.workshop-hero .active a {
+li.active a {
 	background-color:transparent !important;
+	color:#1abc9c !important;
 }
 
 /* Import fonts */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
-
 * { 
 	margin: 0;
 	padding: 0px;
@@ -145,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-p { 
+p, li { 
 	padding: 0; 
 	margin-bottom: 12px; 
     font-family: 'Lato', sans-serif;
