@@ -184,6 +184,9 @@ input#mce-EMAIL {
     letter-spacing: .05em;
 }
 
+#workshop-page .cwp li {
+	margin-left:15px;
+}
 
 .wkshop .container {
 	position: relative;
