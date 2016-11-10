@@ -71,16 +71,37 @@
 	margin-top:0px !important;
 }
 
-#copyright .icon {
+
+/* Cathy Additions Footer */
+#newfooter {
+	padding-bottom: 20px;
+	padding-top: 40px;
+}
+
+#newfooter h5 { 
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 20px;
+	color:#fff;
+	letter-spacing: .05em;
+}
+
+#newfooter .icon {
 	padding-left: 10px;
 	padding-right: 10px;
 }
 
-/*form input {
+#newfooter .social {
+	margin-top: 15px;
+}
+
+
+input#mce-EMAIL {
 	border-radius: 3px;
     border: 1px solid #c9c9c9;
     box-sizing: border-box;
-    color: #4c4c4c;
+    color: #c9c9c9;
+    padding-left: 10px;
     outline: 0;
     width: 100%;
     max-width: 100%;
@@ -90,13 +111,26 @@
 }
 
 #mc-embedded-subscribe {
+	border-radius: 3px;
+    border: none;
+	width: 100%;
+    max-width: 100%;
+    min-width: 50px;
+	height:40px;
+	color:#fff;
+	background-color: #1abc9c;
 	background-color: #1abc9c;
 	color:#fff;
 	margin-left:0;
 	margin-right:0;
 	margin-bottom:10px;
-	border:none;
-}*/
+	border: none !important;
+}
+
+#mc-embedded-subscribe:hover,
+#mc-embedded-subscribe:focus {
+  background-color:#696E74;
+}
 
 /* Cathy Additions Workshops Page */
 #workshop-page {
@@ -489,7 +523,7 @@ a:focus {
 }
 
 /* CONFIGURATION for White Section */
-.w h5 {
+.w h5 { 
 	text-transform: uppercase;
 	font-weight: 700;
 	margin-top: 20px;

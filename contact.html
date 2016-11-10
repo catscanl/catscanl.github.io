@@ -88,24 +88,40 @@
 
 
 	<!-- ********** FOOTER SECTION ********** -->
-    <div id="f">
+    <div id="newfooter" style="background:#2f2f2f;padding-bottom: 40px; padding-top: 40px;">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-md-offset-3 w centered">
+                <div class="col-md-6 col-md-offset-3 col-sm-12 centered">
                     <h5 class="mb">Want To Hear About Our Upcoming Workshops?</h5>
-                    <form role="form" action="register.php" method="post" enctype="plain"> 
-                        <input type="email" name="email" class="subscribe-input" placeholder="Enter your e-mail address..." required>
-                        <button class='btn btn-lg btn-clear subscribe-submit' type="submit">Subscribe</button>
+                    <!-- Begin MailChimp Signup Form -->
+                    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+                    <div id="mc_embed_signup">
+                    <form action="//mezzium.us14.list-manage.com/subscribe/post?u=a28c3bc305bc1838655d2047a&amp;id=fb76ada74a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                        
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a28c3bc305bc1838655d2047a_fb76ada74a" tabindex="-1" value=""></div>
+                        <div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                        </div>
                     </form>
+                    </div>
+
+                    <!--End mc_embed_signup-->
+
+                    <!--End mc_embed_signup-->
+
+                    <div class="row social">
+                        <div class="col-md-6 col-md-offset-3 col-sm-12 centered">
+                            <a href="#"><i class="icon ion-social-twitter"></i></a>
+                            <a href="#"><i class="icon ion-social-facebook"></i></a>
+                            <a href="#"><i class="icon ion-social-linkedin"></i></a>
+                        </div>
+                    </div>
+
                 </div><!--/col-md-6-->
             </div><!--/row -->
-            <div class="row mtb">
-                <div class="col-md-6 col-md-offset-3 centered">
-                    <a href="#"><i class="icon ion-social-twitter"></i></a>
-                    <a href="#"><i class="icon ion-social-facebook"></i></a>
-                    <a href="#"><i class="icon ion-social-linkedin"></i></a>
-                </div>
-            </div>
+
         </div><!--/container -->
     </div><!--/F -->
 
