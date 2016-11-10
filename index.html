@@ -39,7 +39,7 @@
                <img src="assets/img/new/image1.jpg" alt="">
             </li>
             <li>
-               <img src="assets/img/new/image3.jpg" alt="">
+               <img src="assets/img/new/image4.jpg" alt="">
             </li>
             <li>
                <img src="assets/img/new/image2.jpg" alt="">
@@ -50,7 +50,7 @@
             <hr class="aligncenter">
             <h3>The Web Specialists</h3>
          </div>
-         <!-- end:Banner text -->
+         
          <nav class="slides-navigation">
             <a href="index.html#" class="next">
             <i class="ion-ios7-arrow-forward"></i>
@@ -63,28 +63,37 @@
       <!-- END SLIDES SECTION -->
     
     <!-- ********** NAV BAR ********** -->
-
+<div class="nav-wrapper">
+    <div id="navvy">
     <nav class="navbar navbar-default">
         <div class="container-fluid">  
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="workshops.html">Workshops</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Workshops <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="workshop-wordpress-users.html">WordPress Users</a></li>
+                        <li><a href="workshop-social-media.html">Social Media</a></li>
+                      </ul>
+                    </li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
+    </div>
+    </div>
 
 
     <!-- ********** FEATURES ********** -->
     <div class="container homepage-intro">
         <div class="row mtb2 centered">
             <div class="col-sm-8 col-sm-offset-2 w">
-            <h2>One Day Workshops</h2>
+            <h2>Welcome, we are Mezzium</h2>
             <hr class="aligncenter">
-            <p>Would you like to learn how to build your own website or learn how to update your existing WordPress website? Need to leanr how to utilise social media platforms to enable you to reach a wider audience quickly and effectively. Our one day workshops will give you the knowledge to ....</p>
+            <p>We aim to help businesses increase growth by providing high quality, hands-on, experiential courses and workshops</p>
             </div><!--/col-md-4-->
         </div><!--/row -->
     </div><!-- /.container -->
@@ -104,7 +113,7 @@
                     <h5>WordPress Users</h5>
                     <hr>
                     <p>WordPress is the world’s most popular website builder. This one day workshop covers all the most useful features and tools WordPress offers.</p>
-                    <a href="workshops.html#wordpress-user"><button class="btn btn-lg btn-design btn-course">Read More</button></a>
+                    <a href="workshop-wordpress-users.html"><button class="btn btn-lg btn-design btn-course">Read More</button></a>
                 </div>
 
                 <div class="col-sm-1 centered">
@@ -113,8 +122,8 @@
                 <div class="col-sm-5 w">
                     <h5>Social Media</h5>
                     <hr>
-                    <p>Our hands-on social media one day workshop will teach you what you need to know about the main social media channels.</p>
-                    <a href="workshops.html#social-media"><button class="btn btn-lg btn-design">Read More</button></a>
+                    <p>Our hands-on social media for business one day workshop will teach you what you need to know about the main social media channels.</p>
+                    <a href="workshop-social-media.html"><button class="btn btn-lg btn-design">Read More</button></a>
                 </div>
 
             </div><!--/row -->
@@ -125,7 +134,7 @@
                 <div class="col-sm-5 w">
                     <h5>On-site Training</h5>
                     <hr>
-                    <p>IE Web Training can provide on-site training packages customized to your training goals. Contact us to discuss your requirements.</p>
+                    <p>Mezzium Media can provide on-site training packages customized to your training goals. Contact us to discuss your requirements.</p>
                     <a href="contact.html"><button class="btn btn-lg btn-design btn-course">Contact Us</button></a>
                 </div>
 
@@ -137,7 +146,7 @@
 	<!-- ********** TESTIMONIAL SECTION ********** -->
 	<div id="t" class="carousel slide" data-ride="carousel">
     	<div class="col-md-6 col-md-offset-3 centered">
-    		<h5>Love From Our Workshop Atendees</h5>
+    		<h5>Testimonials</h5>
     		<hr class="aligncenter">
 		    <!-- Carousel
 		    ================================================== -->
@@ -172,34 +181,64 @@
 			</div><!--/carousel-inner -->
     	</div><!--/col-md-6 -->
 	</div><!--/T -->
-	
 
-	<!-- ********** FOOTER SECTION ********** -->
-	<div id="f">
-		<div class="container">
-			<div class="row" id="contact-us">
-				<div class="col-md-8 col-md-offset-2 w centered">
-					<h5 class="mb">Contact Us</h5>		
-                    <!-- www.123contactform.com script begins here -->
-                    <iframe allowTransparency="true" style="min-height:420px; height:inherit; overflow:auto;" width="100%" id="contactform123" name="contactform123" marginwidth="0" marginheight="0" frameborder="0" src="https://www.123contactform.com/my-contact-form-2269837.html">
-                    <p>Your browser does not support iframes. The contact form cannot be displayed. Please use another browser</p>
-                    </iframe>
-                    <!-- www.123contactform.com script ends here -->
+    <!-- ********** FOOTER SECTION ********** -->
+    <div id="f">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 w centered">
+                    <h5 class="mb">Want To Hear About Our Upcoming Workshops?</h5>
+                    <!-- Begin MailChimp Signup Form -->
+                    <div id="mc_embed_signup">
+                    <form action="//mezzium.us14.list-manage.com/subscribe/post?u=a28c3bc305bc1838655d2047a&amp;id=fb76ada74a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                        
+                    <div class="mc-field-group">
+                        <label for="mce-EMAIL">Email Address </label>
+                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                    </div>
+                        <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a28c3bc305bc1838655d2047a_fb76ada74a" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                        </div>
+                    </form>
+                    </div>
 
-				</div><!--/col-md-6-->
-			</div><!--/row -->
-		</div><!--/container -->
-	</div><!--/F -->
+                    <!--End mc_embed_signup-->
 
-	<div id="copyright">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-md-offset-3 centered">
-					<h6>COPYRIGHT 2016 | Mezzium Media</h6>
-				</div>
-			</div>
-		</div>
-	</div><!--/copyright -->
+
+
+                    <!-- <form role="form" action="register.php" method="post" enctype="plain"> 
+                        <input type="email" name="email" class="subscribe-input" placeholder="Enter your e-mail address..." required>
+                        <button class='btn btn-lg btn-clear subscribe-submit' type="submit">Subscribe</button>
+                    </form> -->
+
+                </div><!--/col-md-6-->
+            </div><!--/row -->
+
+        </div><!--/container -->
+    </div><!--/F -->
+
+    <div id="copyright">
+        <div class="container">
+            <div class="row mtb">
+                <div class="col-md-6 col-md-offset-3 centered">
+                    <a href="#"><i class="icon ion-social-twitter"></i></a>
+                    <a href="#"><i class="icon ion-social-facebook"></i></a>
+                    <a href="#"><i class="icon ion-social-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 centered">
+                    <h6>COPYRIGHT 2016 | MEZZIUM MEDIA</h6>
+                </div>
+            </div>
+        </div>
+    </div><!--/copyright -->
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -211,8 +250,10 @@
     <script src="assets/js/jquery.cubeportfolio.js"></script>
     <script src="assets/js/theme.js"></script>
     <script src="assets/js/jquery.hammer.min.js"></script>
+    <script src="assets/js/jquery.sticky-kit.min.js"></script>
 
     <script>
+        // $(".navbar").stick_in_parent();
         //Superslides 
         $('#slides').superslides({
             slide_easing: 'easeInOutCubic',
@@ -232,6 +273,7 @@
         $('#slides').hammer().on('swiperight', function () {
             $(this).superslides('animate', 'prev');
         });
+
     </script>
     
     <script>

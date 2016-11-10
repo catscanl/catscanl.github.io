@@ -13,26 +13,38 @@
 
 /* Cathy Additions Nav */
 .navbar-default {
-	background-color: #fff;
-	border-color: transparent;
+	background-color: #fff !important;
 	border-bottom: 2px solid #eee;
 	padding: 15px 0;
+	height:100px;
+}
+
+#homepage .navbar-default {
+	z-index:2;
 }
 
 .navbar-default li a {
 	letter-spacing: .05em;
+	padding-left:20px;
+	padding-right:20px;
 }
 
 .navbar-default img {
 	width:30%;
-	
 }
 
+#homepage .affix {
+    background: gray;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+  }
 
 /* Cathy Additions Hompeage */
-
 .homepage-intro .mtb2 {
-	margin-top:50px;
+	margin-top:30px;
+	margin-bottom: 60px;
 }
 
 #g {
@@ -58,6 +70,33 @@
 #f, #t {
 	margin-top:0px !important;
 }
+
+#copyright .icon {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/*form input {
+	border-radius: 3px;
+    border: 1px solid #c9c9c9;
+    box-sizing: border-box;
+    color: #4c4c4c;
+    outline: 0;
+    width: 100%;
+    max-width: 100%;
+    min-width: 50px;
+    margin-bottom:15px;
+    height:40px;
+}
+
+#mc-embedded-subscribe {
+	background-color: #1abc9c;
+	color:#fff;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:10px;
+	border:none;
+}*/
 
 /* Cathy Additions Workshops Page */
 #workshop-page {
@@ -154,8 +193,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-p, li { 
-	padding: 0; 
+p, li, .dropdown-menu li a {  
 	margin-bottom: 12px; 
     font-family: 'Lato', sans-serif;
 	font-weight: 300;
@@ -163,6 +201,10 @@ p, li {
 	line-height: 26px;
 	color: #666; 
 	margin-top: 10px; 
+}
+
+p, li { 
+	padding: 0;  
 }
 
 html,
@@ -237,7 +279,7 @@ a:focus {
 
 /* FORM CONFIGURATION */
 
-input {
+/*input {
 	font-size: 16px;
 	min-height: 40px;
 	border-radius: 2px;
@@ -266,7 +308,7 @@ input {
 }
 
 /* Buttons */
-.btn-design {
+/*.btn-design {
 	font-size: 13px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -292,7 +334,7 @@ input {
 .btn-clear:hover {
 	background: white;
 	color: #2f2f2f;
-}
+}*/
 
 
 
@@ -454,7 +496,7 @@ input {
 }
 
 .w hr{
-	border: 1px solid #2f2f2f;
+	border: 1px solid #1abc9c;
 	width: 40px;
 }
 
