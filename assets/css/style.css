@@ -47,6 +47,10 @@
 	margin-bottom: 60px;
 }
 
+#slides li {
+	margin-top: 0;
+}
+
 #g {
 	padding-bottom:40px;
 }
@@ -119,12 +123,9 @@ input#mce-EMAIL {
 	height:40px;
 	color:#fff;
 	background-color: #1abc9c;
-	background-color: #1abc9c;
-	color:#fff;
 	margin-left:0;
 	margin-right:0;
 	margin-bottom:10px;
-	border: none !important;
 }
 
 #mc-embedded-subscribe:hover,
