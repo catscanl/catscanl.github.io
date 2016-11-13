@@ -41,6 +41,10 @@
     padding: 0;
   }
 
+.navbar-default img {
+  margin-top: -18px;
+}
+
 /* Cathy Additions Hompeage */
 .homepage-intro .mtb2 {
 	margin-top:30px;
@@ -82,12 +86,17 @@
 	padding-top: 40px;
 }
 
-#newfooter h5 { 
+#newfooter h5, #workshop-white h5 { 
 	text-transform: uppercase;
 	font-weight: 700;
 	margin-top: 20px;
 	color:#fff;
 	letter-spacing: .05em;
+}
+
+#workshop-white h5 {
+	color:#5a5a5a;
+	margin-bottom:10px;
 }
 
 #newfooter .icon {
@@ -136,6 +145,11 @@ input#mce-EMAIL {
 /* Cathy Additions Workshops Page */
 #workshop-page {
 	position: relative;
+	padding-top: 0px;
+}
+
+.workshop-nav {
+	margin-bottom: 0px;
 }
 
 #workshop-page h1 {
@@ -533,7 +547,7 @@ input {
 	margin-top: 20px;
 }
 
-.w hr{
+.w hr, #workshop-white hr{
 	border: 1px solid #1abc9c;
 	width: 40px;
 }
