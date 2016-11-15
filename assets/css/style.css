@@ -187,6 +187,14 @@ input#mce-EMAIL {
     background-color:#fff;
 }
 
+#workshop-white img {
+	width:100%;
+	margin-top: 15px;
+}
+#workshop-white h5 {
+	text-align: center;
+}
+
 .wkshop {
 	position: relative;
 	background: #ececec;
