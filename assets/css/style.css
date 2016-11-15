@@ -19,10 +19,6 @@
 	height:100px;
 }
 
-#homepage .navbar-default {
-	z-index:2;
-}
-
 .navbar-default li a {
 	letter-spacing: .05em;
 	padding-left:20px;
@@ -43,6 +39,14 @@
 
 .navbar-default img {
   margin-top: -18px;
+}
+
+@media (max-width: 767px) {
+	.navbar-collapse {
+		background-color: #fff;
+		z-index: 999;
+		position: relative;
+	}
 }
 
 /* Cathy Additions Hompeage */
@@ -84,6 +88,10 @@
 #newfooter {
 	padding-bottom: 20px;
 	padding-top: 40px;
+	z-index: 2;
+	z-index: 999;
+	background:#2f2f2f;
+	position: relative;
 }
 
 #newfooter h5, #workshop-white h5 { 
@@ -145,11 +153,14 @@ input#mce-EMAIL {
 /* Cathy Additions Workshops Page */
 #workshop-page {
 	position: relative;
-	padding-top: 0px;
+	margin-top: 0px;
+	padding-top: 60px;
 }
 
 .workshop-nav {
 	margin-bottom: 0px;
+	position: relative;
+	z-index: 2;
 }
 
 #workshop-page h1 {
@@ -159,13 +170,20 @@ input#mce-EMAIL {
 #workshop-intro-bg {
 	background-size: cover;
 	display: block;
-	filter: grayscale(100%);
-	opacity: 0.1;
+/*	filter: grayscale(100%);
+	opacity: 0.1;*/
 	height: 800px;
 	left: 0;
+	top:0;
 	position: fixed;
 	right: 0;
 	z-index: 1;
+}
+
+#workshop-white {
+	position: relative;
+    z-index: 999;
+    background-color:#fff;
 }
 
 .wkshop {
@@ -224,6 +242,23 @@ input#mce-EMAIL {
 li.active a {
 	background-color:transparent !important;
 	color:#1abc9c !important;
+}
+
+.dates .btn-design {
+	margin-top: -10px !important;
+	margin-bottom: 20px;
+}
+
+.dates p {
+	float:left;
+}
+
+.dates a {
+	float: right;
+}
+
+.dates {
+	padding-bottom: 80px;
 }
 
 /* Import fonts */
@@ -615,6 +650,8 @@ input {
 	width: 100%;
 	margin-top: 40px;
 	color: white;
+	z-index: 2;
+	z-index: 999;
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -666,4 +703,6 @@ input {
 	padding-top: 35px;
 	background: #010101;
 	color: white;
+	position: relative;
+	z-index: 2;
 }
