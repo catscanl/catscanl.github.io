@@ -257,6 +257,10 @@ li.active a {
 	float: right;
 }
 
+.dates hr {
+	margin: 10px 0;
+}
+
 .dates {
 	padding-bottom: 80px;
 }
