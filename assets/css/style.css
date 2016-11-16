@@ -16,7 +16,7 @@
 	background-color: #fff !important;
 	border-bottom: 2px solid #eee;
 	padding: 15px 0;
-	height:100px;
+	min-height:100px;
 }
 
 .navbar-default li a {
