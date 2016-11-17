@@ -440,7 +440,7 @@ input {
 
 /* SLIDER */
 #slides {
-	touch-action: auto;
+	touch-action: auto !important;
     position: relative;
     max-height: 1020px;
     background: #1D1D25;
