@@ -102,6 +102,18 @@
 	margin-top:0px !important;
 }
 
+#t {
+	min-height: 450px !important;
+}
+
+#t h5 {
+	font-size: 16px;
+}
+
+#t .mtb {
+	margin-top: 40px;
+    margin-bottom: 100px;
+}
 
 /* Cathy Additions Footer */
 #newfooter {
@@ -310,6 +322,17 @@ li.active a {
 
 .dates {
 	padding-bottom: 100px;
+}
+
+/* Contact Page */
+
+.contact-intro {
+	padding-bottom: 20px;
+}
+
+.contact-intro p {
+	text-align: center;
+	font-size:18px;
 }
 
 /* Import fonts */
