@@ -27,6 +27,12 @@
 
 .navbar-default img {
 	width:30%;
+	position: relative;
+    z-index: 9999;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: transparent;
 }
 
 #homepage .affix {
@@ -50,9 +56,21 @@
 }
 
 /* Cathy Additions Hompeage */
+
+@media (max-width: 767px) {
+	#bannertext h3 {
+		padding-left:30px;
+		padding-right:30px;
+	}
+}
+
 .homepage-intro .mtb2 {
 	margin-top:30px;
 	margin-bottom: 60px;
+}
+
+.homepage-intro p {
+	font-size: 18px;
 }
 
 #slides li {
@@ -152,16 +170,38 @@ input#mce-EMAIL {
 }
 
 /* Cathy Additions Workshops Page */
+
+#wkshp #wkshp-banner img {
+	width: 100%;
+	height: auto;
+	margin-top: 0px;
+	top:0;
+	position:relative;
+	z-index:100;
+}
+
+#wkshp .navbar-default {
+	/*background-color: transparent !important;*/
+}
+
+#wkshp #wkshpbannertext {
+    z-index: 999;
+    margin-top: 90px;
+    position: relative;
+}
+
 #workshop-page {
 	position: relative;
 	margin-top: 0px;
-	padding-top: 60px;
+	padding-top: 50px;
 }
 
 .workshop-nav {
 	margin-bottom: 0px;
 	position: relative;
-	z-index: 2;
+	z-index: 999;
+	/*margin-top: -270px;*/
+	border: none;
 }
 
 #workshop-page h1 {
@@ -171,8 +211,6 @@ input#mce-EMAIL {
 #workshop-intro-bg {
 	background-size: cover;
 	display: block;
-/*	filter: grayscale(100%);
-	opacity: 0.1;*/
 	height: 800px;
 	left: 0;
 	top:0;
