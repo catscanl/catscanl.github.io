@@ -504,7 +504,7 @@ input {
 	touch-action: auto !important;
     position: relative;
     max-height: 1020px;
-    background: #1D1D25;
+    background: #7e7e7e;
 }
 #slides ul li img {
     opacity: 0.4;
